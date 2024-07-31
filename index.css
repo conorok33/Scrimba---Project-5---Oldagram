@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.avatars {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.insta {
+    width: 250px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 15px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.name-loc {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.location {
+    font-size: 28px;
+}
+
+.post {
+    width: 100%;
+}
+
+.icon-size {
+    width: 70px;
+    height: 70px;
+}
+
+.icons {
+    display: flex;
+    width: 350px;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px 40px;
+}
+
+.comment {
+    padding: 0 60px;
+}
+
+h2 {
+    padding: 0px 40px;
+    font-size: 36px;
+}
+
+span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.deets {
+    font-size: 34px;
+    padding-left: 40px;
+}
